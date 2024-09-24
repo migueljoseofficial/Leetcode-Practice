@@ -1,0 +1,5 @@
+to solve this problem, we take advantage of the fact that sets have unique membership. 
+This means that there are no duplicates in a set. So by creating a set out of the 
+given list, we are able to check if there was duplicates in the list if the created
+set has less values than original list.
+
