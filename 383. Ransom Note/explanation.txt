@@ -1,0 +1,10 @@
+For this problem, I mmiediealty thought of appraoching it with a counts dictionary.
+First, I would put all of the letters in the newspaper into a dictionary called counts.
+Then I would loop through the ransomeNote, and deal with the edge cases.
+1. If the letter isn't in dictionary, then we can immeidately return false
+2. If the letter is in the dicionary but the value is zero, then we can return false
+3. else we would just subtract one from the counts.
+Finally, we return true, if it passes through this for loop!
+
+How can I make it faster?
+- add more edge cases?
