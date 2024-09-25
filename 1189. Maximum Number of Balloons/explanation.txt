@@ -1,0 +1,6 @@
+for this problem, I used a hashmap. We loop through the given string and ignore any letters that aren'text
+in the word balloon. Otherwise, they will be added to our hashmap and we increase the value. AFter
+we also check the hashmap to see if it has a value for every letter in balloon. If not, then we 
+return 0 as the word balloon cannot be made. Finally, we return the minimum of every value in the dictionary.
+notice that since 'l' and 'o' appear twice, we divide their value by 2 to signify that two occurences
+of the letter are necessary for one "balloon"
